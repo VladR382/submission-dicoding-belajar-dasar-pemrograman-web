@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndonesiaKU</title>
+    <link rel="icon" type="image/x-icon" href="./assets/image/Flag_of_Indonesia.png">
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <div class="title">
+                <h1>Wisata Indonesia</h1>
+            </div>
+            <div class="mobile-nav">
+                <h1>Wisata Indonesia</h1>
+                    <div id="myLinks">
+                        <a href="#home">Beranda</a>
+                        <a href="#content">Objek Wisata</a>
+                        <a href="#contact">Hubungi Kami</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+            </div>
+            <div class="nav-item">
+                <a href="#home">Beranda</a>
+                <a href="#content">Daftar Wisata</a>
+                <a href="#contact">Hubungi Kami</a>
+            </div>    
+        </nav>
+    </header>
+
+    <main class="card">
+        <div class="home" id="home">
+            <article class="wellcome">
+                <h2>Selamat Datang di Website Wisata Indonesia</h2>
+                <p>Tempat mencari informasi terkait objek wisata populer di Indonesia</p>
+                <a href="#content" class="btn btn-hero">Jelajahi</a>
+            </article>
+        </div>
+        <section>
+            <aside>
+                <h2>Indonesia</h2>
+                <p>"Bhinneka Tunggal Ika"</p>
+                <img src="./assets/image/profile.png" alt="Logo Garuda">
+                <section>
+                    <h3>Peta Wilayah</h3>
+                    <img src="./assets/image/peta.png" alt="Globe Indo" class="peta">
+                    <h3>Informasi Lainnya</h3>
+                    <table>
+                        <tr>
+                            <th>Ibukota</th>
+                            <td>Jakarta</td>
+                        </tr>
+                        <tr>
+                            <th>Bahasa resmi</th>
+                            <td>Indonesia</td>
+                        </tr>
+                        <tr>
+                            <th>Bahasa daerah</th>
+                            <td>Lebih dari 700 bahasa</td>
+                        </tr>
+                        <tr>
+                            <th>Hari jadi</th>
+                            <td>17 Agustus 1945</td>
+                        </tr>
+                        <tr>
+                            <th>Luas Total</th>
+                            <td>1.904.569 km<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <th>Mata Uang</th>
+                            <td>Rupiah</td>
+                        </tr>
+                        <tr>
+                            <th>Kode telephone</th>
+                            <td>+62</td>
+                        </tr>
+                    </table>
+                </section>
+            </aside>
+            <div id="content" class="content">
+                <article>
+                    <h2>Daftar Objek Wisata</h2>
+                    <div class="flex-container">
+                        <div class="list-box">
+                            <h4>Raja Ampat</h4>
+                            <img src="./assets/image/Raja-Ampat.jpg" alt="Raja Ampat" class="featured-image">
+                            <p>Raja Ampat merupakan salah satu objek wisata Indonesia yang mendunia dan diakui Unesco. Keindahan pemandangan bawah lautnya menjadi daya tarik utama Pulau yang ada di ujung timur Indonesia ini.</p>
+                            <button onclick="window.location.href='https://id.wikipedia.org/wiki/Kepulauan_Raja_Ampat'" class="btn btn-rm">Baca Selengkapnya...</button>
+                        </div>
+                        <div class="list-box">
+                            <h4>Ubud Bali</h4>
+                            <img src="./assets/image/Ubud-Bali.jpg" alt="Ubud Bali" class="featured-image">
+                            <p>Ketenaran Ubud bahkan dijadikan sebagai salah satu lokasi syuting utama film Eat, Pray, and Love. Adapun destinasi wisata yang harus kunjungi di sini adalah Tegalalang Rice Field, Bukit Campuhan, Pura Taman Saraswati, Goa Gajah, Pasar Seni Ubud, Museum Arma.</p>
+                            <button onclick="window.location.href ='https://id.wikipedia.org/wiki/Ubud'" class="btn btn-rm">Baca Selengkapnya...</button>
+                        </div>
+                        <div class="list-box">
+                            <h4>Daerah Istimewa Yogyakarta</h4>
+                            <img src="./assets/image/Jogja.jpg" alt="Yogyakarta" class="featured-image">
+                            <p>Jogja selalu punya spot istimewa untuk dikunjungi. Salah satunya ialah Kabupaten Sleman dengan sederet candi kuno yang klasik sekaligus mengagumkan. Saat berlibur ke Jogja, sempatkan waktu untuk menjelajahi Candi Prambanan, candi Hindu terbesar di Nusantara.</p>
+                            <button onclick="window.location.href ='https://id.wikipedia.org/wiki/Kota_Yogyakarta'" class="btn btn-rm">Baca Selengkapnya...</button>
+                        </div>
+                        <div class="list-box">
+                            <h4>Wae Rebo NTT</h4>
+                            <img src="./assets/image/Wae-Rebo-NTT.jpg" alt="Wae Rebo" class="featured-image">
+                            <p>Desa Wae Rebo merupakan situs warisan dunia yang berada di ketinggian 1.200 mdpl, Kabupaten Manggarai, Nusa Tenggara Timur. Kampung di atas awan ini hanya memiliki 7 rumah utama. Saat tiba di atas puncak, pengunjung akan terkesima dengan kabut tipis di sela-sela hijaunya pemandangan. Berkunjung pada bulan November juga direkomendasikan, karena biasanya dilaksanakan upacara adat Penti. Ritual tersebut merupakan ungkapan syukur atas panen yang diterima sepanjang tahun.</p>
+                            <button onclick="window.location.href ='https://id.wikipedia.org/wiki/Wae_Rebo'" class="btn btn-rm">Baca Selengkapnya...</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h3>Hubungi Kami</h3>
+            <p>Bila anda ingin informasi lebih lanjut dan butuh local guide bisa hubungi kami </p>
+            <a href="#"><i data-feather="instagram"></i></a>
+            <a href="#"><i data-feather="facebook"></i></a>
+            <a href="#"><i data-feather="linkedin"></i></a>
+        </section>
+    </main>
+
+    <footer>
+        <div>Created by Muhammad Rafli | Copyright &copy; 2025</div>
+    </footer>
+
+    <script>feather.replace();</script>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
